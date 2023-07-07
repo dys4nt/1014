@@ -58,7 +58,7 @@ int main()
     for(int i=0;i<c;i++){
         reset();
         cin >> n >> m;
-        char* str;
+        char str[10];
         for(int j=0;j<n;j++){
             cin >> str;
             for(int k=0;k<m;k++){
